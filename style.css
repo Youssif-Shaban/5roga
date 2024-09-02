@@ -396,6 +396,7 @@ footer .follow{
 @media(max-width:500px){
     .category-container{
         flex-direction: column;
+        width: 200px;
     }
 
     .category-box,
