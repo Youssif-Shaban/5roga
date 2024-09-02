@@ -300,12 +300,98 @@ footer .follow{
     color: #fff;
 }
 
+#categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 50px 0px;
+    flex-direction: column;
+}
 
+#categories h2{
+    font-weight: 500;
+    padding: 2px 20px ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 20px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+}
 
+.category-container{
+    display: flex;
+    margin: auto;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    background-color: #f5f5f533;
 
+}
 
+.category-box{
+    position: relative;
+    padding: 20px;
+}
 
+.category-box img {
+    width: 220px;
+    height: 220px;
+    object-fit: contain;
+    padding: 20px;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    transition: all ease 0.3s;
+}
 
+.category-box span {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: #2c2b2b;
+    text-transform: uppercase;
+}
+
+.category-box:hover img{
+    transform: scale(1.02);
+    transition: all ease 0.2s;
+    box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.09);
+}
+
+#categories2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 50px 0px;
+    flex-direction: column;
+}
+.blog-card{
+    position: absolute;
+    padding: 50px;
+    height: 350px;
+    width: 95%;
+    max-width: 850px;
+    margin: 100px;
+    background: white;
+    border-radius: 25px;
+    box-shadow: 0 10px 50px rgba(252, 56, 56, 0.4);
+}
+.blog-card .inner-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+}
+
+.inner-part .img{
+    height: 260px;
+    width: 260px;
+    overflow: hidden;
+
+}
 
 
 
