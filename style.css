@@ -350,7 +350,7 @@ footer .follow{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 600;
+    font-weight: 200;
     color: #2c2b2b;
     text-transform: uppercase;
 }
