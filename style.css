@@ -393,6 +393,17 @@ footer .follow{
 
 }
 
+@media(max-width:500px){
+    .category-container{
+        flex-direction: column;
+    }
+
+    .category-box,
+    .category-box .img {
+        width: 100%;
+        height: 100%;
+    }
+}
 
 
 
